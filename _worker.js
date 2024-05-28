@@ -10,7 +10,7 @@ let userID = '20d60afb-992c-4d04-9bc2-b5c178f8078b';
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
 // let พร็อกซีไอพี = พร็อกซีไอพีs[Math.floor(Math.random() * พร็อกซีไอพีs.length)];
 // use single พร็อกซีไอพี instead of random
-let พร็อกซีไอพี = '46.254.92.46';
+let พร็อกซีไอพี = '46.254.92.20';
 // ipv6 พร็อกซีไอพี example remove comment to use
 // let พร็อกซีไอพี = "[2a01:4f8:c2c:123f:64:5:6810:c55a]"
 
@@ -183,7 +183,7 @@ async function วเลสOverWSHandler(request) {
 			const {
 				hasError,
 				message,
-				portRemote = 443,
+				portRemote = 80,
 				addressRemote = '',
 				rawDataIndex,
 				วเลสVersion = new Uint8Array([0, 0]),
